@@ -61,7 +61,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://api.zipmoney.com.au/merchant/v1';
+    protected $host = 'https://merchant-api.com/merchant';
 
     /**
      * API Version
@@ -84,8 +84,8 @@ class Configuration
      * @var array
      */
     protected $supportedEnvironments = array(
-        "sandbox" => array("host" => "https://global-api.sand.au.edge.zip.co/merchant"),
-        "production" => array("host" => 'https://global-api.prod.au.edge.zip.co/merchant')
+        "sandbox" => array("host" => "https://sand.merchant-api.com/merchant"),
+        "production" => array("host" => 'https://merchant-api.com/merchant')
     );
 
     /**
